@@ -1,0 +1,7 @@
+ano_nascimento = int(input('DIgite o ano em que você nasceu: '))
+ano_atual = int(input('Digite em que ano estamos: '))
+
+def calcular():
+    calculo = ano_atual - ano_nascimento
+    print(f'Sua idade é {calculo} anos')
+calcular()
